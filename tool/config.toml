@@ -1,0 +1,40 @@
+[Database]
+name      = "yakiniku_development"
+user      = "root"
+password  = "root"
+host      = "localhost"
+port      = "3306"
+
+[Logo]
+originName = "logo_origin.png"
+
+[Cooking]
+originId = 100
+largeId  = 101
+mediumId = 102
+smallId  = 103
+microId  = 104
+originNoLogoID = 111
+
+[Other]
+originId = 200
+largeId  = 201
+mediumId = 202
+smallId  = 203
+microId  = 204
+originNoLogoID = 222
+
+[ImageSize]
+largeWidth   = 700
+largeHeight  = 700
+mediumWidth  = 500
+mediumHeight = 500
+smallWidth   = 300
+smallHeight  = 300
+microWidth   = 100
+microHeight  = 100
+
+[aws]
+bucketName = ""
+accessKeyID = ""
+secretAccessKey = ""
